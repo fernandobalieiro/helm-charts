@@ -1,0 +1,10 @@
+---
+app:
+  image: quarkus-training-part2:0.0.1
+  ports:
+    http: 8080
+
+  credentialsSecretName: database-credentials
+
+  config:
+    QUARKUS_DATASOURCE_JDBC_URL: jdbc:postgresql://postgres-postgresql.dev.svc.cluster.local:5432/postgres

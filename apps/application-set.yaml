@@ -12,6 +12,10 @@ spec:
             name: helm-quickstart
             type: api
           - repoURL: git@github.com:fernandobalieiro/helm-charts.git
+            path: charts/quarkus-training-part2
+            name: quarkus-training-part2
+            type: api
+          - repoURL: git@github.com:fernandobalieiro/helm-charts.git
             path: charts/postgres
             name: postgres
             type: services
