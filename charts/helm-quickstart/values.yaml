@@ -1,0 +1,5 @@
+---
+app:
+  image: helm-quickstart:0.0.1
+  ports:
+    http: 8080
